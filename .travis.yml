@@ -3,8 +3,6 @@ os:
   - osx
 language: java
 script: make
-jdk:
-   - oraclejdk8
 before_install:
    - sudo apt-get update -qq 
    - sudo apt-get install build-essential
